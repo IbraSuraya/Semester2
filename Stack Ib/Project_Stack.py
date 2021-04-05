@@ -8,6 +8,7 @@ class stack:
     def delete(self):
         self.stack = []
         print("="*50)
+        print("= ", self.stack)
         print("=    Stack is Empty")
         print("="*50)
     def push(self):
